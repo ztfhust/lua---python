@@ -480,7 +480,7 @@ static PyMethodDef lua_methods[] = {
 	{NULL,		NULL}
 };
 
-DL_EXPORT(void)
+DL_EXPORT(void);
 initlua(void)
 {
 	PyObject *m;
